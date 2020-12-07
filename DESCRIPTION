@@ -1,0 +1,18 @@
+Package: fakepaper
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: What the package does (one paragraph).
+License: MIT
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Imports: FactoMineR, irr, vegan,
+    bookdown,
+    here
+Suggests: devtools,
+    git2r
