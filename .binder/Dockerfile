@@ -4,6 +4,7 @@ USER root
 COPY . ${HOME}
 RUN apt-get update \
 	&& apt-get install -y \
+	texlive-binaries \
 	texlive-base \
 	texlive-latex-base \
 	texlive-latex-recommended\
