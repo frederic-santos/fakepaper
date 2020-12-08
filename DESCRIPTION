@@ -11,7 +11,7 @@ License: MIT
 ByteCompile: true
 Encoding: UTF-8
 LazyData: true
-Imports: bookdown, FactoMineR, irr, lattice, rticles, vegan,
+Imports: bookdown, lattice, rticles, vegan,
     here (>= 1.0.0),
     knitr (>= 1.30),
     rmarkdown (>= 2.5)
