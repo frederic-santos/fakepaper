@@ -5,7 +5,7 @@ COPY . ${HOME}
 RUN apt-get update \
 	&& apt-get install -y \
 	texlive-fonts-extra \
-	texlive-publishers \
+	texlive-publishers
 RUN chown -R ${NB_USER} ${HOME}
 USER ${NB_USER}
 
