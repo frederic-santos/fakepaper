@@ -8,6 +8,8 @@ WORKDIR ${HOME}
 
 USER ${NB_USER}
 COPY . ${HOME}
+
+USER root
 RUN chown -R ${NB_USER} ${HOME}
 
 USER ${NB_USER}
