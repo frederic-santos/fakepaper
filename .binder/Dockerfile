@@ -4,6 +4,9 @@ USER root
 COPY . ${HOME}
 RUN apt-get update \
 	&& apt-get install -y \
+	texlive-base \
+	texlive-latex-base \
+	texlive-latex-recommended\
 	texlive-fonts-extra \
 	texlive-publishers
 RUN chown -R ${NB_USER} ${HOME}
